@@ -11,6 +11,7 @@ ranges 58.3-94.1%, raw_frac_of_detected_at_or_after_onset ranges 0-9.09% -- matc
 manuscript's prose exactly.
 """
 
+from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 import pandas as pd
@@ -46,6 +47,12 @@ def load_table():
     return pd.DataFrame(rows)
 
 
+def _r1(x):
+    """Round to one decimal, half away from zero. Python's %.1f rounds half to even,
+    turning 4.25 into 4.2 and disagreeing with the manuscript's 4.3."""
+    return Decimal(str(x)).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP)
+
+
 def to_markdown(table):
     lines = [
         "**Table 3.** Lead-time distribution for raw (uncorrected) detections, by model and split. "
@@ -58,7 +65,7 @@ def to_markdown(table):
     for _, r in table.iterrows():
         lines.append(
             f"| {r.model} | {r.split} | {r.n_detected}/{r.n_episodes} | "
-            f"{r.median_min:.0f} min | [{r.iqr_low_min:.0f}, {r.iqr_high_min:.0f}] min | "
+            f"{_r1(r.median_min)} min | [{_r1(r.iqr_low_min)}, {_r1(r.iqr_high_min)}] min | "
             f"{r.pct_ge_10min:.0f}% | {r.pct_at_or_after_onset:.0f}% |"
         )
     return "\n".join(lines)

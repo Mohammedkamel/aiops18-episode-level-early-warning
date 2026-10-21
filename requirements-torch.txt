@@ -1,0 +1,11 @@
+# Deep-learning / foundation-model environment (Python 3.11.15)
+# Required for the LSTM, PatchTST, and zero-shot Chronos runs only.
+# Kept separate from requirements.txt because chronos-forecasting pins an
+# older numpy than the main environment uses.
+torch==2.2.2
+numpy==1.26.4
+pandas==3.0.5
+transformers==4.47.1
+accelerate==0.34.2
+chronos-forecasting==1.4.1
+einops==0.8.2

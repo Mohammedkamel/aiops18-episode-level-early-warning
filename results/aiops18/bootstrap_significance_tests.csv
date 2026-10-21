@@ -1,0 +1,21 @@
+task,comparison,split,point_estimate,ci_low,ci_high,n_boot,n_clusters,n_undefined_resamples,p_value,flag
+1_mae_patchtst_vs_chronos,"MAE(PatchTST) - MAE(Chronos), Chronos-matched cohort, val",val,0.000457082562148571,-0.009100271016359329,0.01176712065935134,10000,41,0,0.984,not distinguishable from zero
+1_mae_patchtst_vs_chronos,"MAE(PatchTST) - MAE(Chronos), Chronos-matched cohort, test",test,0.0002757643580436707,-0.007603953778743744,0.008664795011281966,10000,41,0,0.963,not distinguishable from zero
+2_detection_rate_delta,"detection_rate(chronos) - detection_rate(persistence), test",test,0.0,0.0,0.0,10000,26,0,1.0,not distinguishable from zero
+2_detection_rate_delta,"detection_rate(chronos) - detection_rate(sarima), test",test,0.0,0.0,0.0,10000,26,0,1.0,not distinguishable from zero
+2_detection_rate_delta,"detection_rate(chronos) - detection_rate(xgboost), test",test,0.0,-0.017391304347826084,0.01762114537444934,10000,26,0,1.0,not distinguishable from zero
+2_detection_rate_delta,"detection_rate(patchtst) - detection_rate(persistence), test",test,-0.004310344827586209,-0.014337346298297058,0.0,10000,26,0,0.716,not distinguishable from zero
+2_detection_rate_delta,"detection_rate(sarima) - detection_rate(persistence), val",val,-0.00813008130081301,-0.019920318725099598,0.0,10000,26,0,0.255,not distinguishable from zero
+2_detection_rate_delta,"detection_rate(sarima) - detection_rate(persistence), test",test,0.0,0.0,0.0,10000,26,0,1.0,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), persistence, val",val,0.001322504218076788,-0.0060422661420809175,0.01175325813699916,10000,26,1,0.7172717271727173,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), persistence, test",test,0.005933960897273702,-0.000996034367249258,0.015713646535685393,10000,26,2,0.11122224444888978,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), sarima, val",val,-0.0026974163873209125,-0.010847571717253267,0.007359524880521617,10000,26,0,0.6576,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), sarima, test",test,-0.0032292106373997403,-0.007381031814186692,0.002041986269280314,10000,26,7,0.20954668267787452,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), xgboost, val",val,0.011769454653608374,0.001240677104166347,0.025537478602800024,10000,26,2,0.027005401080216044,statistically distinguishable
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), xgboost, test",test,0.009634666180537512,-4.685292005923355e-05,0.0220357665582443,10000,26,12,0.051461754104925914,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), lstm, val",val,0.004510957359261179,-0.005750032334873621,0.01757049405254918,10000,26,1,0.40404040404040403,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), lstm, test",test,-0.00019397387818440373,-0.005836431739768093,0.008057060298873906,10000,26,13,0.9514368679283068,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), patchtst, val",val,-0.0059133740395425835,-0.01343378476216661,0.004362766462638983,10000,26,0,0.2534,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), patchtst, test",test,0.011530977982590875,-0.0028811486038812133,0.030108152040263726,10000,26,13,0.13417442675478122,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), chronos, val",val,0.018352574334607838,-0.006761160618192801,0.04778448684162035,10000,26,2,0.1960392078415683,not distinguishable from zero
+3_f1_delta_corrected_minus_raw,"F1(corrected) - F1(raw), chronos, test",test,0.0029956936903201697,-0.006627526359166322,0.016386787737309602,10000,26,3,0.6547964389316795,not distinguishable from zero

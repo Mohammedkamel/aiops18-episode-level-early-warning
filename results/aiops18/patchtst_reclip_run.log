@@ -1,0 +1,39 @@
+pooling 41 KPIs, 578235 train windows
+15/41 KPIs low-precision (excluded from aggregate)
+
+=== training PatchTST ===
+    [patchtst] epoch 1/15: mean MSE loss = 0.2494
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch1.pt
+    [patchtst] epoch 2/15: mean MSE loss = 0.2168
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch2.pt
+    [patchtst] epoch 3/15: mean MSE loss = 0.2105
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch3.pt
+    [patchtst] epoch 4/15: mean MSE loss = 0.2058
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch4.pt
+    [patchtst] epoch 5/15: mean MSE loss = 0.2035
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch5.pt
+    [patchtst] epoch 6/15: mean MSE loss = 0.2011
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch6.pt
+    [patchtst] epoch 7/15: mean MSE loss = 0.1997
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch7.pt
+    [patchtst] epoch 8/15: mean MSE loss = 0.1982
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch8.pt
+    [patchtst] epoch 9/15: mean MSE loss = 0.1981
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch9.pt
+    [patchtst] epoch 10/15: mean MSE loss = 0.1958
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch10.pt
+    [patchtst] epoch 11/15: mean MSE loss = 0.1948
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch11.pt
+    [patchtst] epoch 12/15: mean MSE loss = 0.1951
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch12.pt
+    [patchtst] epoch 13/15: mean MSE loss = 0.1912
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch13.pt
+    [patchtst] epoch 14/15: mean MSE loss = 0.1922
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch14.pt
+    [patchtst] epoch 15/15: mean MSE loss = 0.1926
+    [patchtst] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/patchtst_epoch15.pt
+PatchTST training took 129.5 min
+
+[patchtst / val] {'n_windows': 179684, 'mae': 0.22861204328088225, 'rmse': 0.46979892523486944, 'n_episodes': 246, 'detection_rate': 0.07723577235772358, 'missed_degradation_rate': 0.9227642276422764, 'lead_time_median_seconds': 720.0, 'lead_time_iqr_low_seconds': 630.0, 'lead_time_iqr_high_seconds': 780.0, 'n_false_alarm_episodes': 347, 'n_kpis_total': 41, 'n_kpis_excluded_low_precision': 15, 'excluded_low_precision_kpi_ids': '09513ae3e75778a3;57051487-3a40-3828-9084-a12f7f23ee38;6d1114ae-be04-3c46-b5aa-be1a003a57cd;7103fa0f-cac4-314f-addc-866190247439;7c189dd36f048a6c;8723f0fb-eaef-32e6-b372-6034c9c04b80;8c892e5525f3e491;9bd90500bfd11edb;9ee5879409dccef9;a40b1df87e3f1c87;a5bf5d65261d859a;ba5f3328-9f3f-3ff5-a683-84437d16d554;c58bfcbacb2822d1;da10a69f-d836-3baa-ad40-3e548ecf1fbd;e0770391decc44ce'}
+
+[patchtst / test] {'n_windows': 170562, 'mae': 0.22561083568110968, 'rmse': 0.46373072502816365, 'n_episodes': 232, 'detection_rate': 0.05172413793103448, 'missed_degradation_rate': 0.9482758620689655, 'lead_time_median_seconds': 720.0, 'lead_time_iqr_low_seconds': 585.0, 'lead_time_iqr_high_seconds': 795.0, 'n_false_alarm_episodes': 429, 'n_kpis_total': 41, 'n_kpis_excluded_low_precision': 15, 'excluded_low_precision_kpi_ids': '09513ae3e75778a3;57051487-3a40-3828-9084-a12f7f23ee38;6d1114ae-be04-3c46-b5aa-be1a003a57cd;7103fa0f-cac4-314f-addc-866190247439;7c189dd36f048a6c;8723f0fb-eaef-32e6-b372-6034c9c04b80;8c892e5525f3e491;9bd90500bfd11edb;9ee5879409dccef9;a40b1df87e3f1c87;a5bf5d65261d859a;ba5f3328-9f3f-3ff5-a683-84437d16d554;c58bfcbacb2822d1;da10a69f-d836-3baa-ad40-3e548ecf1fbd;e0770391decc44ce'}

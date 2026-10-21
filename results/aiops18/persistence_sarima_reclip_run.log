@@ -1,0 +1,196 @@
+running on 41 KPI(s): ['02e99bd4f6cfb33f', '05f10d3a-239c-3bef-9bdc-a2feeb0037aa', '09513ae3e75778a3', '18fbb1d5a5dc099d', '1c35dbf57f55f5e4', '...']
+    [02e99bd4f6cfb33f] calibrated threshold=1.601 (train precision=0.488, recall=0.182, f1=0.265)
+  02e99bd4f6cfb33f: done in 38.2s
+    [05f10d3a-239c-3bef-9bdc-a2feeb0037aa] calibrated threshold=2.539 (train precision=0.451, recall=0.427, f1=0.439)
+  05f10d3a-239c-3bef-9bdc-a2feeb0037aa: done in 31.4s
+    [09513ae3e75778a3] calibrated threshold=2.924 (train precision=0.013, recall=0.009, f1=0.011) *** LOW PRECISION (<30%) even at best threshold ***
+  09513ae3e75778a3: done in 33.1s
+    [18fbb1d5a5dc099d] calibrated threshold=3.290 (train precision=0.842, recall=0.620, f1=0.714)
+  18fbb1d5a5dc099d: done in 40.6s
+    [1c35dbf57f55f5e4] calibrated threshold=5.737 (train precision=0.936, recall=0.329, f1=0.487)
+  1c35dbf57f55f5e4: done in 43.9s
+    [1c6d7a26-1f1a-3321-bb4d-7a9d969ec8f0] calibrated threshold=5.919 (train precision=1.000, recall=0.273, f1=0.429)
+  1c6d7a26-1f1a-3321-bb4d-7a9d969ec8f0: done in 30.6s
+    [40e25005ff8992bd] calibrated threshold=2.285 (train precision=0.323, recall=0.046, f1=0.080)
+  40e25005ff8992bd: done in 22.1s
+    [42d6616d-c9c5-370a-a8ba-17ead74f3114] calibrated threshold=4.530 (train precision=0.996, recall=0.649, f1=0.786)
+  42d6616d-c9c5-370a-a8ba-17ead74f3114: done in 29.4s
+    [43115f2a-baeb-3b01-96f7-4ea14188343c] calibrated threshold=4.230 (train precision=0.994, recall=0.866, f1=0.926)
+  43115f2a-baeb-3b01-96f7-4ea14188343c: done in 18.9s
+    [431a8542-c468-3988-a508-3afd06a218da] calibrated threshold=2.882 (train precision=0.408, recall=0.173, f1=0.243)
+  431a8542-c468-3988-a508-3afd06a218da: done in 32.6s
+    [4d2af31a-9916-3d9f-8a8e-8a268a48c095] calibrated threshold=2.820 (train precision=0.759, recall=0.861, f1=0.807)
+  4d2af31a-9916-3d9f-8a8e-8a268a48c095: done in 493.1s
+    [55f8b8b8-b659-38df-b3df-e4a5a8a54bc9] calibrated threshold=2.697 (train precision=0.644, recall=0.035, f1=0.066)
+  55f8b8b8-b659-38df-b3df-e4a5a8a54bc9: done in 48.6s
+    [57051487-3a40-3828-9084-a12f7f23ee38] calibrated threshold=2.008 (train precision=0.191, recall=0.804, f1=0.309) *** LOW PRECISION (<30%) even at best threshold ***
+  57051487-3a40-3828-9084-a12f7f23ee38: done in 35.6s
+    [6a757df4-95e5-3357-8406-165e2bd49360] calibrated threshold=4.367 (train precision=0.513, recall=0.204, f1=0.292)
+  6a757df4-95e5-3357-8406-165e2bd49360: done in 39.5s
+    [6d1114ae-be04-3c46-b5aa-be1a003a57cd] calibrated threshold=2.862 (train precision=0.111, recall=0.137, f1=0.123) *** LOW PRECISION (<30%) even at best threshold ***
+  6d1114ae-be04-3c46-b5aa-be1a003a57cd: done in 22.8s
+    [6efa3a07-4544-34a0-b921-a155bd1a05e8] calibrated threshold=2.836 (train precision=0.372, recall=0.373, f1=0.372)
+  6efa3a07-4544-34a0-b921-a155bd1a05e8: done in 412.2s
+    [7103fa0f-cac4-314f-addc-866190247439] calibrated threshold=5.766 (train precision=0.052, recall=0.348, f1=0.090) *** LOW PRECISION (<30%) even at best threshold ***
+  7103fa0f-cac4-314f-addc-866190247439: done in 77.2s
+    [71595dd7171f4540] calibrated threshold=2.186 (train precision=0.736, recall=0.090, f1=0.160)
+  71595dd7171f4540: done in 30.7s
+    [7c189dd36f048a6c] calibrated threshold=2.539 (train precision=0.176, recall=0.053, f1=0.081) *** LOW PRECISION (<30%) even at best threshold ***
+  7c189dd36f048a6c: done in 29.2s
+    [847e8ecc-f8d2-3a93-9107-f367a0aab37d] calibrated threshold=2.648 (train precision=0.468, recall=0.426, f1=0.446)
+  847e8ecc-f8d2-3a93-9107-f367a0aab37d: done in 30.6s
+    [8723f0fb-eaef-32e6-b372-6034c9c04b80] calibrated threshold=2.805 (train precision=0.111, recall=0.039, f1=0.058) *** LOW PRECISION (<30%) even at best threshold ***
+  8723f0fb-eaef-32e6-b372-6034c9c04b80: done in 28.4s
+    [88cf3a776ba00e7c] calibrated threshold=1.859 (train precision=0.322, recall=0.125, f1=0.180)
+  88cf3a776ba00e7c: done in 21.1s
+    [8bef9af9a922e0b3] calibrated threshold=2.100 (train precision=0.590, recall=0.107, f1=0.181)
+  8bef9af9a922e0b3: done in 25.7s
+    [8c892e5525f3e491] calibrated threshold=2.496 (train precision=0.167, recall=0.139, f1=0.152) *** LOW PRECISION (<30%) even at best threshold ***
+  8c892e5525f3e491: done in 36.6s
+    [9bd90500bfd11edb] calibrated threshold=2.426 (train precision=0.032, recall=0.280, f1=0.058) *** LOW PRECISION (<30%) even at best threshold ***
+  9bd90500bfd11edb: done in 46.2s
+    [9c639a46-34c8-39bc-aaf0-9144b37adfc8] calibrated threshold=4.551 (train precision=0.997, recall=0.791, f1=0.882)
+  9c639a46-34c8-39bc-aaf0-9144b37adfc8: done in 22.9s
+    [9ee5879409dccef9] calibrated threshold=0.159 (train precision=0.048, recall=0.870, f1=0.091) *** LOW PRECISION (<30%) even at best threshold ***
+  9ee5879409dccef9: done in 15.7s
+    [a07ac296-de40-3a7c-8df3-91f642cc14d0] calibrated threshold=2.559 (train precision=0.921, recall=0.554, f1=0.692)
+  a07ac296-de40-3a7c-8df3-91f642cc14d0: done in 36.2s
+    [a40b1df87e3f1c87] calibrated threshold=1.993 (train precision=0.077, recall=0.168, f1=0.106) *** LOW PRECISION (<30%) even at best threshold ***
+  a40b1df87e3f1c87: done in 27.1s
+    [a5bf5d65261d859a] calibrated threshold=4.106 (train precision=0.021, recall=0.474, f1=0.041) *** LOW PRECISION (<30%) even at best threshold ***
+  a5bf5d65261d859a: done in 56.6s
+    [adb2fde9-8589-3f5b-a410-5fe14386c7af] calibrated threshold=4.727 (train precision=0.996, recall=0.600, f1=0.749)
+  adb2fde9-8589-3f5b-a410-5fe14386c7af: done in 29.9s
+    [affb01ca2b4f0b45] calibrated threshold=2.218 (train precision=0.473, recall=0.094, f1=0.157)
+  affb01ca2b4f0b45: done in 28.0s
+    [ba5f3328-9f3f-3ff5-a683-84437d16d554] calibrated threshold=2.769 (train precision=0.213, recall=0.021, f1=0.039) *** LOW PRECISION (<30%) even at best threshold ***
+  ba5f3328-9f3f-3ff5-a683-84437d16d554: done in 41.1s
+    [c58bfcbacb2822d1] calibrated threshold=0.883 (train precision=0.001, recall=0.452, f1=0.001) *** LOW PRECISION (<30%) even at best threshold ***
+  c58bfcbacb2822d1: done in 32.8s
+    [c69a50cf-ee03-3bd7-831e-407d36c7ee91] calibrated threshold=6.152 (train precision=1.000, recall=0.296, f1=0.457)
+  c69a50cf-ee03-3bd7-831e-407d36c7ee91: done in 30.9s
+    [cff6d3c01e6a6bfa] calibrated threshold=2.136 (train precision=0.407, recall=0.052, f1=0.092)
+  cff6d3c01e6a6bfa: done in 28.3s
+    [da10a69f-d836-3baa-ad40-3e548ecf1fbd] calibrated threshold=0.592 (train precision=0.066, recall=0.737, f1=0.121) *** LOW PRECISION (<30%) even at best threshold ***
+  da10a69f-d836-3baa-ad40-3e548ecf1fbd: done in 22.4s
+    [da403e4e3f87c9e0] calibrated threshold=3.116 (train precision=0.811, recall=0.549, f1=0.655)
+  da403e4e3f87c9e0: done in 43.8s
+    [e0770391decc44ce] calibrated threshold=2.499 (train precision=0.156, recall=0.135, f1=0.144) *** LOW PRECISION (<30%) even at best threshold ***
+  e0770391decc44ce: done in 567.1s
+    [f0932edd-6400-3e63-9559-0a9860a1baa9] calibrated threshold=3.095 (train precision=0.452, recall=0.458, f1=0.455)
+  f0932edd-6400-3e63-9559-0a9860a1baa9: done in 35.6s
+    [ffb82d38-5f00-37db-abc0-5d2e4e4cb6aa] calibrated threshold=3.194 (train precision=0.450, recall=0.209, f1=0.286)
+  ffb82d38-5f00-37db-abc0-5d2e4e4cb6aa: done in 30.5s
+
+--- threshold calibration summary (41 KPIs) ---
+  02e99bd4f6cfb33f: threshold=1.601 precision=0.488 recall=0.182 f1=0.265
+  05f10d3a-239c-3bef-9bdc-a2feeb0037aa: threshold=2.539 precision=0.451 recall=0.427 f1=0.439
+  09513ae3e75778a3: threshold=2.924 precision=0.013 recall=0.009 f1=0.011 *** LOW PRECISION ***
+  18fbb1d5a5dc099d: threshold=3.290 precision=0.842 recall=0.620 f1=0.714
+  1c35dbf57f55f5e4: threshold=5.737 precision=0.936 recall=0.329 f1=0.487
+  1c6d7a26-1f1a-3321-bb4d-7a9d969ec8f0: threshold=5.919 precision=1.000 recall=0.273 f1=0.429
+  40e25005ff8992bd: threshold=2.285 precision=0.323 recall=0.046 f1=0.080
+  42d6616d-c9c5-370a-a8ba-17ead74f3114: threshold=4.530 precision=0.996 recall=0.649 f1=0.786
+  43115f2a-baeb-3b01-96f7-4ea14188343c: threshold=4.230 precision=0.994 recall=0.866 f1=0.926
+  431a8542-c468-3988-a508-3afd06a218da: threshold=2.882 precision=0.408 recall=0.173 f1=0.243
+  4d2af31a-9916-3d9f-8a8e-8a268a48c095: threshold=2.820 precision=0.759 recall=0.861 f1=0.807
+  55f8b8b8-b659-38df-b3df-e4a5a8a54bc9: threshold=2.697 precision=0.644 recall=0.035 f1=0.066
+  57051487-3a40-3828-9084-a12f7f23ee38: threshold=2.008 precision=0.191 recall=0.804 f1=0.309 *** LOW PRECISION ***
+  6a757df4-95e5-3357-8406-165e2bd49360: threshold=4.367 precision=0.513 recall=0.204 f1=0.292
+  6d1114ae-be04-3c46-b5aa-be1a003a57cd: threshold=2.862 precision=0.111 recall=0.137 f1=0.123 *** LOW PRECISION ***
+  6efa3a07-4544-34a0-b921-a155bd1a05e8: threshold=2.836 precision=0.372 recall=0.373 f1=0.372
+  7103fa0f-cac4-314f-addc-866190247439: threshold=5.766 precision=0.052 recall=0.348 f1=0.090 *** LOW PRECISION ***
+  71595dd7171f4540: threshold=2.186 precision=0.736 recall=0.090 f1=0.160
+  7c189dd36f048a6c: threshold=2.539 precision=0.176 recall=0.053 f1=0.081 *** LOW PRECISION ***
+  847e8ecc-f8d2-3a93-9107-f367a0aab37d: threshold=2.648 precision=0.468 recall=0.426 f1=0.446
+  8723f0fb-eaef-32e6-b372-6034c9c04b80: threshold=2.805 precision=0.111 recall=0.039 f1=0.058 *** LOW PRECISION ***
+  88cf3a776ba00e7c: threshold=1.859 precision=0.322 recall=0.125 f1=0.180
+  8bef9af9a922e0b3: threshold=2.100 precision=0.590 recall=0.107 f1=0.181
+  8c892e5525f3e491: threshold=2.496 precision=0.167 recall=0.139 f1=0.152 *** LOW PRECISION ***
+  9bd90500bfd11edb: threshold=2.426 precision=0.032 recall=0.280 f1=0.058 *** LOW PRECISION ***
+  9c639a46-34c8-39bc-aaf0-9144b37adfc8: threshold=4.551 precision=0.997 recall=0.791 f1=0.882
+  9ee5879409dccef9: threshold=0.159 precision=0.048 recall=0.870 f1=0.091 *** LOW PRECISION ***
+  a07ac296-de40-3a7c-8df3-91f642cc14d0: threshold=2.559 precision=0.921 recall=0.554 f1=0.692
+  a40b1df87e3f1c87: threshold=1.993 precision=0.077 recall=0.168 f1=0.106 *** LOW PRECISION ***
+  a5bf5d65261d859a: threshold=4.106 precision=0.021 recall=0.474 f1=0.041 *** LOW PRECISION ***
+  adb2fde9-8589-3f5b-a410-5fe14386c7af: threshold=4.727 precision=0.996 recall=0.600 f1=0.749
+  affb01ca2b4f0b45: threshold=2.218 precision=0.473 recall=0.094 f1=0.157
+  ba5f3328-9f3f-3ff5-a683-84437d16d554: threshold=2.769 precision=0.213 recall=0.021 f1=0.039 *** LOW PRECISION ***
+  c58bfcbacb2822d1: threshold=0.883 precision=0.001 recall=0.452 f1=0.001 *** LOW PRECISION ***
+  c69a50cf-ee03-3bd7-831e-407d36c7ee91: threshold=6.152 precision=1.000 recall=0.296 f1=0.457
+  cff6d3c01e6a6bfa: threshold=2.136 precision=0.407 recall=0.052 f1=0.092
+  da10a69f-d836-3baa-ad40-3e548ecf1fbd: threshold=0.592 precision=0.066 recall=0.737 f1=0.121 *** LOW PRECISION ***
+  da403e4e3f87c9e0: threshold=3.116 precision=0.811 recall=0.549 f1=0.655
+  e0770391decc44ce: threshold=2.499 precision=0.156 recall=0.135 f1=0.144 *** LOW PRECISION ***
+  f0932edd-6400-3e63-9559-0a9860a1baa9: threshold=3.095 precision=0.452 recall=0.458 f1=0.455
+  ffb82d38-5f00-37db-abc0-5d2e4e4cb6aa: threshold=3.194 precision=0.450 recall=0.209 f1=0.286
+
+  15/41 KPIs have <30% precision even at their F1-optimal threshold: ['09513ae3e75778a3', '57051487-3a40-3828-9084-a12f7f23ee38', '6d1114ae-be04-3c46-b5aa-be1a003a57cd', '7103fa0f-cac4-314f-addc-866190247439', '7c189dd36f048a6c', '8723f0fb-eaef-32e6-b372-6034c9c04b80', '8c892e5525f3e491', '9bd90500bfd11edb', '9ee5879409dccef9', 'a40b1df87e3f1c87', 'a5bf5d65261d859a', 'ba5f3328-9f3f-3ff5-a683-84437d16d554', 'c58bfcbacb2822d1', 'da10a69f-d836-3baa-ad40-3e548ecf1fbd', 'e0770391decc44ce']
+
+[persistence / val] {'n_windows': 179684, 'mae': 0.2711198344179603, 'rmse': 0.5705028407221296, 'n_episodes': 246, 'detection_rate': 0.07723577235772358, 'missed_degradation_rate': 0.9227642276422764, 'lead_time_median_seconds': 660.0, 'lead_time_iqr_low_seconds': 570.0, 'lead_time_iqr_high_seconds': 720.0, 'n_false_alarm_episodes': 644, 'n_kpis_total': 41, 'n_kpis_excluded_low_precision': 15, 'excluded_low_precision_kpi_ids': '09513ae3e75778a3;57051487-3a40-3828-9084-a12f7f23ee38;6d1114ae-be04-3c46-b5aa-be1a003a57cd;7103fa0f-cac4-314f-addc-866190247439;7c189dd36f048a6c;8723f0fb-eaef-32e6-b372-6034c9c04b80;8c892e5525f3e491;9bd90500bfd11edb;9ee5879409dccef9;a40b1df87e3f1c87;a5bf5d65261d859a;ba5f3328-9f3f-3ff5-a683-84437d16d554;c58bfcbacb2822d1;da10a69f-d836-3baa-ad40-3e548ecf1fbd;e0770391decc44ce'}
+    (excluded from aggregate) 09513ae3e75778a3: n_episodes=1, detected=0, rate=0.000
+    (excluded from aggregate) 57051487-3a40-3828-9084-a12f7f23ee38: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) 6d1114ae-be04-3c46-b5aa-be1a003a57cd: n_episodes=9, detected=0, rate=0.000
+    (excluded from aggregate) 7103fa0f-cac4-314f-addc-866190247439: n_episodes=1, detected=0, rate=0.000
+    (excluded from aggregate) 7c189dd36f048a6c: n_episodes=8, detected=0, rate=0.000
+    (excluded from aggregate) 8723f0fb-eaef-32e6-b372-6034c9c04b80: n_episodes=12, detected=0, rate=0.000
+    (excluded from aggregate) 8c892e5525f3e491: n_episodes=3, detected=0, rate=0.000
+    (excluded from aggregate) 9bd90500bfd11edb: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) 9ee5879409dccef9: n_episodes=10, detected=10, rate=1.000
+    (excluded from aggregate) a40b1df87e3f1c87: n_episodes=11, detected=0, rate=0.000
+    (excluded from aggregate) a5bf5d65261d859a: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) ba5f3328-9f3f-3ff5-a683-84437d16d554: n_episodes=10, detected=0, rate=0.000
+    (excluded from aggregate) c58bfcbacb2822d1: n_episodes=12, detected=7, rate=0.583
+    (excluded from aggregate) da10a69f-d836-3baa-ad40-3e548ecf1fbd: n_episodes=7, detected=7, rate=1.000
+    (excluded from aggregate) e0770391decc44ce: n_episodes=2, detected=0, rate=0.000
+
+[sarima / val] {'n_windows': 179684, 'mae': 0.23233137102085152, 'rmse': 0.46242253567926234, 'n_episodes': 246, 'detection_rate': 0.06910569105691057, 'missed_degradation_rate': 0.9308943089430894, 'lead_time_median_seconds': 720.0, 'lead_time_iqr_low_seconds': 660.0, 'lead_time_iqr_high_seconds': 780.0, 'n_false_alarm_episodes': 334, 'n_kpis_total': 41, 'n_kpis_excluded_low_precision': 15, 'excluded_low_precision_kpi_ids': '09513ae3e75778a3;57051487-3a40-3828-9084-a12f7f23ee38;6d1114ae-be04-3c46-b5aa-be1a003a57cd;7103fa0f-cac4-314f-addc-866190247439;7c189dd36f048a6c;8723f0fb-eaef-32e6-b372-6034c9c04b80;8c892e5525f3e491;9bd90500bfd11edb;9ee5879409dccef9;a40b1df87e3f1c87;a5bf5d65261d859a;ba5f3328-9f3f-3ff5-a683-84437d16d554;c58bfcbacb2822d1;da10a69f-d836-3baa-ad40-3e548ecf1fbd;e0770391decc44ce'}
+    (excluded from aggregate) 09513ae3e75778a3: n_episodes=1, detected=0, rate=0.000
+    (excluded from aggregate) 57051487-3a40-3828-9084-a12f7f23ee38: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) 6d1114ae-be04-3c46-b5aa-be1a003a57cd: n_episodes=9, detected=0, rate=0.000
+    (excluded from aggregate) 7103fa0f-cac4-314f-addc-866190247439: n_episodes=1, detected=0, rate=0.000
+    (excluded from aggregate) 7c189dd36f048a6c: n_episodes=8, detected=0, rate=0.000
+    (excluded from aggregate) 8723f0fb-eaef-32e6-b372-6034c9c04b80: n_episodes=12, detected=0, rate=0.000
+    (excluded from aggregate) 8c892e5525f3e491: n_episodes=3, detected=0, rate=0.000
+    (excluded from aggregate) 9bd90500bfd11edb: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) 9ee5879409dccef9: n_episodes=10, detected=10, rate=1.000
+    (excluded from aggregate) a40b1df87e3f1c87: n_episodes=11, detected=0, rate=0.000
+    (excluded from aggregate) a5bf5d65261d859a: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) ba5f3328-9f3f-3ff5-a683-84437d16d554: n_episodes=10, detected=0, rate=0.000
+    (excluded from aggregate) c58bfcbacb2822d1: n_episodes=12, detected=7, rate=0.583
+    (excluded from aggregate) da10a69f-d836-3baa-ad40-3e548ecf1fbd: n_episodes=7, detected=6, rate=0.857
+    (excluded from aggregate) e0770391decc44ce: n_episodes=2, detected=0, rate=0.000
+
+[persistence / test] {'n_windows': 170562, 'mae': 0.26926594272742543, 'rmse': 0.5530162289935567, 'n_episodes': 232, 'detection_rate': 0.05172413793103448, 'missed_degradation_rate': 0.9482758620689655, 'lead_time_median_seconds': 750.0, 'lead_time_iqr_low_seconds': 645.0, 'lead_time_iqr_high_seconds': 840.0, 'n_false_alarm_episodes': 679, 'n_kpis_total': 41, 'n_kpis_excluded_low_precision': 15, 'excluded_low_precision_kpi_ids': '09513ae3e75778a3;57051487-3a40-3828-9084-a12f7f23ee38;6d1114ae-be04-3c46-b5aa-be1a003a57cd;7103fa0f-cac4-314f-addc-866190247439;7c189dd36f048a6c;8723f0fb-eaef-32e6-b372-6034c9c04b80;8c892e5525f3e491;9bd90500bfd11edb;9ee5879409dccef9;a40b1df87e3f1c87;a5bf5d65261d859a;ba5f3328-9f3f-3ff5-a683-84437d16d554;c58bfcbacb2822d1;da10a69f-d836-3baa-ad40-3e548ecf1fbd;e0770391decc44ce'}
+    (excluded from aggregate) 09513ae3e75778a3: n_episodes=7, detected=0, rate=0.000
+    (excluded from aggregate) 57051487-3a40-3828-9084-a12f7f23ee38: n_episodes=1, detected=0, rate=0.000
+    (excluded from aggregate) 6d1114ae-be04-3c46-b5aa-be1a003a57cd: n_episodes=5, detected=0, rate=0.000
+    (excluded from aggregate) 7103fa0f-cac4-314f-addc-866190247439: n_episodes=12, detected=0, rate=0.000
+    (excluded from aggregate) 7c189dd36f048a6c: n_episodes=7, detected=0, rate=0.000
+    (excluded from aggregate) 8723f0fb-eaef-32e6-b372-6034c9c04b80: n_episodes=5, detected=0, rate=0.000
+    (excluded from aggregate) 8c892e5525f3e491: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) 9bd90500bfd11edb: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) 9ee5879409dccef9: n_episodes=10, detected=10, rate=1.000
+    (excluded from aggregate) a40b1df87e3f1c87: n_episodes=12, detected=0, rate=0.000
+    (excluded from aggregate) a5bf5d65261d859a: n_episodes=1, detected=0, rate=0.000
+    (excluded from aggregate) ba5f3328-9f3f-3ff5-a683-84437d16d554: n_episodes=7, detected=0, rate=0.000
+    (excluded from aggregate) c58bfcbacb2822d1: n_episodes=6, detected=1, rate=0.167
+    (excluded from aggregate) da10a69f-d836-3baa-ad40-3e548ecf1fbd: n_episodes=19, detected=16, rate=0.842
+    (excluded from aggregate) e0770391decc44ce: n_episodes=0, detected=0, rate=nan
+
+[sarima / test] {'n_windows': 170562, 'mae': 0.23438788034336147, 'rmse': 0.45617396856680553, 'n_episodes': 232, 'detection_rate': 0.05172413793103448, 'missed_degradation_rate': 0.9482758620689655, 'lead_time_median_seconds': 750.0, 'lead_time_iqr_low_seconds': 645.0, 'lead_time_iqr_high_seconds': 840.0, 'n_false_alarm_episodes': 446, 'n_kpis_total': 41, 'n_kpis_excluded_low_precision': 15, 'excluded_low_precision_kpi_ids': '09513ae3e75778a3;57051487-3a40-3828-9084-a12f7f23ee38;6d1114ae-be04-3c46-b5aa-be1a003a57cd;7103fa0f-cac4-314f-addc-866190247439;7c189dd36f048a6c;8723f0fb-eaef-32e6-b372-6034c9c04b80;8c892e5525f3e491;9bd90500bfd11edb;9ee5879409dccef9;a40b1df87e3f1c87;a5bf5d65261d859a;ba5f3328-9f3f-3ff5-a683-84437d16d554;c58bfcbacb2822d1;da10a69f-d836-3baa-ad40-3e548ecf1fbd;e0770391decc44ce'}
+    (excluded from aggregate) 09513ae3e75778a3: n_episodes=7, detected=0, rate=0.000
+    (excluded from aggregate) 57051487-3a40-3828-9084-a12f7f23ee38: n_episodes=1, detected=0, rate=0.000
+    (excluded from aggregate) 6d1114ae-be04-3c46-b5aa-be1a003a57cd: n_episodes=5, detected=0, rate=0.000
+    (excluded from aggregate) 7103fa0f-cac4-314f-addc-866190247439: n_episodes=12, detected=0, rate=0.000
+    (excluded from aggregate) 7c189dd36f048a6c: n_episodes=7, detected=0, rate=0.000
+    (excluded from aggregate) 8723f0fb-eaef-32e6-b372-6034c9c04b80: n_episodes=5, detected=0, rate=0.000
+    (excluded from aggregate) 8c892e5525f3e491: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) 9bd90500bfd11edb: n_episodes=0, detected=0, rate=nan
+    (excluded from aggregate) 9ee5879409dccef9: n_episodes=10, detected=10, rate=1.000
+    (excluded from aggregate) a40b1df87e3f1c87: n_episodes=12, detected=0, rate=0.000
+    (excluded from aggregate) a5bf5d65261d859a: n_episodes=1, detected=0, rate=0.000
+    (excluded from aggregate) ba5f3328-9f3f-3ff5-a683-84437d16d554: n_episodes=7, detected=0, rate=0.000
+    (excluded from aggregate) c58bfcbacb2822d1: n_episodes=6, detected=1, rate=0.167
+    (excluded from aggregate) da10a69f-d836-3baa-ad40-3e548ecf1fbd: n_episodes=19, detected=12, rate=0.632
+    (excluded from aggregate) e0770391decc44ce: n_episodes=0, detected=0, rate=nan

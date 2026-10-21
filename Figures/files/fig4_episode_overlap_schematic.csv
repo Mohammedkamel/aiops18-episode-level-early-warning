@@ -1,0 +1,13 @@
+window_label,context_end_time_min_relative_to_onset,horizon_start_min,horizon_end_min,color_hex
+Window A,-10,-10,5,#1f77b4
+Window B,-5,-5,10,#2ca02c
+Window C,0,0,15,#9467bd
+
+# Notes for reconstruction:
+# This figure is a conceptual diagram, not derived from a single real data point.
+# Parameters used: stride = 5 minutes, forecast horizon = 15 minutes.
+# horizon_start = context_end_time (when the window's forecast period begins)
+# horizon_end = horizon_start + 15
+# Onset is placed at t = 0 by convention; all three windows' horizons contain t = 0,
+# which is what causes the episode-level (existential-OR) collapse described in the caption.
+# Collapse rule text used in the figure: "Detected if ANY window flags the onset"

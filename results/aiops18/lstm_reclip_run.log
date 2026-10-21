@@ -1,0 +1,19 @@
+pooling 41 KPIs, 578235 train windows
+15/41 KPIs low-precision (excluded from aggregate)
+
+=== training LSTM ===
+    [lstm] epoch 1/5: mean MSE loss = 0.2489
+    [lstm] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/lstm_epoch1.pt
+    [lstm] epoch 2/5: mean MSE loss = 0.2162
+    [lstm] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/lstm_epoch2.pt
+    [lstm] epoch 3/5: mean MSE loss = 0.2137
+    [lstm] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/lstm_epoch3.pt
+    [lstm] epoch 4/5: mean MSE loss = 0.2116
+    [lstm] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/lstm_epoch4.pt
+    [lstm] epoch 5/5: mean MSE loss = 0.2097
+    [lstm] saved checkpoint -> /Users/mohammedkamel/Downloads/degradation-forecasting-paper/results/aiops18/checkpoints/lstm_epoch5.pt
+LSTM training took 139.1 min
+
+[lstm / val] {'n_windows': 179684, 'mae': 0.24392695925350066, 'rmse': 0.4871218861851553, 'n_episodes': 246, 'detection_rate': 0.032520325203252036, 'missed_degradation_rate': 0.967479674796748, 'lead_time_median_seconds': 720.0, 'lead_time_iqr_low_seconds': 600.0, 'lead_time_iqr_high_seconds': 735.0, 'n_false_alarm_episodes': 250, 'n_kpis_total': 41, 'n_kpis_excluded_low_precision': 15, 'excluded_low_precision_kpi_ids': '09513ae3e75778a3;57051487-3a40-3828-9084-a12f7f23ee38;6d1114ae-be04-3c46-b5aa-be1a003a57cd;7103fa0f-cac4-314f-addc-866190247439;7c189dd36f048a6c;8723f0fb-eaef-32e6-b372-6034c9c04b80;8c892e5525f3e491;9bd90500bfd11edb;9ee5879409dccef9;a40b1df87e3f1c87;a5bf5d65261d859a;ba5f3328-9f3f-3ff5-a683-84437d16d554;c58bfcbacb2822d1;da10a69f-d836-3baa-ad40-3e548ecf1fbd;e0770391decc44ce'}
+
+[lstm / test] {'n_windows': 170562, 'mae': 0.24120012436568092, 'rmse': 0.4787540787690083, 'n_episodes': 232, 'detection_rate': 0.04741379310344827, 'missed_degradation_rate': 0.9525862068965517, 'lead_time_median_seconds': 720.0, 'lead_time_iqr_low_seconds': 450.0, 'lead_time_iqr_high_seconds': 810.0, 'n_false_alarm_episodes': 359, 'n_kpis_total': 41, 'n_kpis_excluded_low_precision': 15, 'excluded_low_precision_kpi_ids': '09513ae3e75778a3;57051487-3a40-3828-9084-a12f7f23ee38;6d1114ae-be04-3c46-b5aa-be1a003a57cd;7103fa0f-cac4-314f-addc-866190247439;7c189dd36f048a6c;8723f0fb-eaef-32e6-b372-6034c9c04b80;8c892e5525f3e491;9bd90500bfd11edb;9ee5879409dccef9;a40b1df87e3f1c87;a5bf5d65261d859a;ba5f3328-9f3f-3ff5-a683-84437d16d554;c58bfcbacb2822d1;da10a69f-d836-3baa-ad40-3e548ecf1fbd;e0770391decc44ce'}

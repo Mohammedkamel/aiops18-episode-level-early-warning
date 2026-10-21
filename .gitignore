@@ -1,0 +1,44 @@
+# ---- Raw and intermediate data (not redistributed) ----
+# AIOps18 is a public dataset; download it yourself (see README).
+data/
+processed_data/
+
+# ---- Large per-window prediction arrays (regenerable from scripts/) ----
+results/aiops18/*.npz
+results/aiops18/checkpoints/
+results/**/*.parquet
+results/**/*.pkl
+
+# ---- Model checkpoints (large, regenerable) ----
+*.pt
+*.pth
+**/checkpoints/
+
+# ---- Superseded results kept locally for provenance only ----
+# These encode pre-bugfix behaviour and must not be published alongside the paper.
+*_backup/
+*backup*/
+*_pre_10k_backup.csv
+*_pre_causal_fix_backup.csv
+*_pre_bugfix_backup.csv
+*_buggy_backup.csv
+*_degenerate_onset_ground_truth.csv
+*_SMOKETEST*
+*_smoketest_*
+
+# ---- Stale figure data superseded by direct result-file reads ----
+Figures/files/fig1_accuracy_vs_detection.csv
+Figures/files/fig3_correction_layer_f1.csv
+Figures/files/fig5_correction_mechanism.csv
+Figures/files.zip
+
+# ---- Out-of-scope exploratory work (different dataset, not in the paper) ----
+results/aiops2022/
+
+# ---- Environments, caches, OS cruft ----
+.venv/
+.venv-torch/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store

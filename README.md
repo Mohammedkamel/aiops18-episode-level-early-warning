@@ -94,7 +94,22 @@ Steps 2 and 3 are the expensive ones. Everything downstream reads the saved outp
 produce supporting figures retained from earlier drafts; they are not referenced in the
 submitted version.
 
-## 5. Key methodological points
+## 5. A note on the ARIMA / `sarima` naming
+
+The paper calls this model **ARIMA(2,1,2)**. The code, the class `SarimaModel`, the file
+`baseline_sarima.py`, and the `sarima` values inside the released result CSVs all use the
+older `sarima` spelling.
+
+This is a naming artefact, not a different model. `baseline_sarima.py` constructs
+`statsmodels.tsa.statespace.sarimax.SARIMAX(values, order=(2,1,2), ...)` and passes **no**
+`seasonal_order`, so statsmodels applies its default `(0,0,0,0)` and the fitted model has no
+seasonal component. `SARIMAX` is simply the statsmodels class that implements ARIMA here.
+
+The identifiers are deliberately left unchanged so that the released result files remain
+byte-identical to the ones the published tables and figures were generated from. Read every
+`sarima` identifier in this repository as ARIMA(2,1,2).
+
+## 6. Key methodological points
 
 - **Threshold calibration** is per-KPI, on the training split only (200 quantile
   candidates, F1-optimal), then frozen for validation and test and shared across all six
@@ -122,7 +137,7 @@ submitted version.
 Fuller rationale is in `docs/aiops18_preprocessing_methodology.md` and
 `docs/aiops18_evaluation_methodology.md`.
 
-## 6. Reproducibility notes
+## 7. Reproducibility notes
 
 - The LSTM and PatchTST runs use fixed seeds. The LSTM showed some initialization
   sensitivity on validation; this is reported in the paper's limitations.
@@ -137,12 +152,12 @@ Fuller rationale is in `docs/aiops18_preprocessing_methodology.md` and
   exploratory work on a different dataset and are not part of this paper; their outputs are
   not included here.
 
-## 7. Citation
+## 8. Citation
 
 Aleinzi, M. Beyond Forecast Accuracy: Episode-Level Evaluation of Forecasting-Based Early
 Warning in Operational Time Series. (Under review.)
 
-## 8. License
+## 9. License
 
 Code released under the MIT License. The AIOps18 dataset remains under its original
 license from the NetMan Laboratory, Tsinghua University.

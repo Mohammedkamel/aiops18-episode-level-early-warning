@@ -9,11 +9,12 @@ catch at all.
 
 This script instead locates and plots a real episode that (a) is missed by the raw threshold,
 (b) is caught by the current, causally-correct correction layer, and (c) matches the
-manuscript's own Figure 5 caption exactly: SARIMA, onset 2017-06-17 08:23:00 UTC, 11-minute
-lead time. The active change-point here was flagged 15 minutes earlier (at t=-26min, maturing
-at t=-11min = -26+horizon), so the figure also directly illustrates the causal-maturity
-mechanism: an earlier, already-matured change-point sets the threshold, never the triggering
-window's own future-realized residual.
+manuscript's own Figure 5 caption exactly: ARIMA, onset 2017-06-17 08:23:00 UTC, 11-minute
+lead time. The forecast window at t=-26min produces the residual that later drives CUSUM, but
+that residual is not observable until its horizon matures at t=-11min (= -26 + horizon); only
+then can the change point be declared and the threshold reduced. Labelling t=-26min as the
+moment of flagging would invert that order and contradict the causal-maturity rule the figure
+exists to demonstrate, so the annotations below distinguish the two times explicitly.
 
 All values below are computed directly from results/aiops18/sarima_val_15min_60s_predictions.npz
 and the live correction_layer.py functions, not read from any pre-existing figure CSV.
@@ -110,10 +111,21 @@ def plot(trace, episode, lead_time_min, base_threshold, trigger_t):
         trigger_val = trace.set_index("t_min").loc[trigger_t, "max_abs_pred"]
         ax.scatter([trigger_t], [trigger_val], facecolors="none", edgecolors="#1f77b4", s=70, zorder=4, linewidths=1.8)
         ax.annotate(
-            "change-point\nflagged here",
+            "forecast window whose\nresidual later triggers CUSUM",
             xy=(trigger_t, trigger_val), xytext=(x_lo + 1, 2.45),
             fontsize=8.5, ha="left", va="center",
             arrowprops=dict(arrowstyle="->", color="#1f77b4", lw=0.9, connectionstyle="arc3,rad=0.2"),
+        )
+
+    if trigger_t is not None:
+        matured_t = trigger_t + HORIZON_STEPS
+        ax.axvline(matured_t, color="#1f77b4", linestyle="-.", linewidth=1.2, zorder=1)
+        ax.annotate(
+            "residual matures here;\nchange point becomes available,\nadaptive threshold begins",
+            xy=(matured_t, y_lo + 0.14), xytext=(x_lo + 1.0, y_lo + 0.30),
+            fontsize=8.5, ha="left", va="center", color="#1f77b4",
+            arrowprops=dict(arrowstyle="->", color="#1f77b4", lw=0.9,
+                            connectionstyle="arc3,rad=-0.15"),
         )
 
     ax.text(0.6, y_hi - 0.08, "onset", color="#d62728", fontsize=9, va="top")
@@ -141,12 +153,12 @@ def plot(trace, episode, lead_time_min, base_threshold, trigger_t):
 
     fig.subplots_adjust(bottom=0.18)
     fig.text(0.5, 0.03,
-              f"SARIMA, onset {ONSET_STR} UTC, KPI {KPI} -- lead time {lead_time_min:.0f} minutes.",
+              f"ARIMA, onset {ONSET_STR} UTC, KPI {KPI} -- lead time {lead_time_min:.0f} minutes.",
               ha="center", fontsize=8.5, style="italic")
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT_DIR / "fig5_correction_mechanism.pdf", bbox_inches="tight")
-    fig.savefig(OUT_DIR / "fig5_correction_mechanism.png", dpi=150, bbox_inches="tight")
+    fig.savefig(OUT_DIR / "fig5_correction_mechanism.png", dpi=600, bbox_inches="tight")
     print(f"saved to {OUT_DIR / 'fig5_correction_mechanism.pdf'} and .png")
 
 

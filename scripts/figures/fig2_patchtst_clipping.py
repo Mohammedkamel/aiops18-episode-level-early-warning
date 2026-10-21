@@ -67,7 +67,7 @@ def plot(df):
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT_DIR / "fig2_patchtst_clipping.pdf", bbox_inches="tight")
-    fig.savefig(OUT_DIR / "fig2_patchtst_clipping.png", dpi=150, bbox_inches="tight")
+    fig.savefig(OUT_DIR / "fig2_patchtst_clipping.png", dpi=600, bbox_inches="tight")
     print(f"saved to {OUT_DIR / 'fig2_patchtst_clipping.pdf'} and .png")
 
 

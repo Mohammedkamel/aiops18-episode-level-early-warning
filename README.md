@@ -1,5 +1,9 @@
 # Episode-Level Evaluation of Forecasting-Based Early Warning in Operational Time Series
 
+**Author:** Mohammed Aleinzi ([ORCID 0000-0003-2595-0611](https://orcid.org/0000-0003-2595-0611)),
+Department of Information Systems, Faculty of Computing and Information Technology,
+Northern Border University, Rafha 91431, Saudi Arabia.
+
 Analysis code for the paper *"Beyond Forecast Accuracy: Episode-Level Evaluation of
 Forecasting-Based Early Warning in Operational Time Series"* (AIOps18 KPI anomaly
 anticipation).
